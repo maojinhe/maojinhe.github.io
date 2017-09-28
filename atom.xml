@@ -43,9 +43,9 @@
     <link href="http://yoursite.com/2017/09/21/hello-world/"/>
     <id>http://yoursite.com/2017/09/21/hello-world/</id>
     <published>2017-09-21T14:19:39.712Z</published>
-    <updated>2017-09-28T07:08:15.531Z</updated>
+    <updated>2017-09-28T08:51:43.322Z</updated>
     
-    <content type="html"><![CDATA[<p>紫陌长安，看花年少，无限歌舞。白发怜君，寻芳较晚，卷地惊风雨。问君知否，鸱夷载酒，不似井瓶身误。细思量，悲欢梦里，觉来总无寻处。<br>芒鞋竹杖，天教还了，千古玉溪佳句。落魄东归，风流赢得，掌上明珠去。起看清镜，南冠好在，拂了旧时尘土。向君道，云霄万里，这回稳步。</p><p>长忆别时，景疏楼上，明月如水。美酒清歌，留连不住，月随人千里。别来三度，孤光又满，冷落共谁同醉？卷珠帘、凄然顾影，共伊到明无寐。<br>今朝有客，来从濉上，能道使君深意。凭仗清淮，分明到海，中有相思泪。而今何在？西垣清禁，夜永露华侵被。此时看、回廊晓月，也应暗记。</p>]]></content>
+    <content type="html"><![CDATA[<p>紫陌长安，看花年少，无限歌舞。白发怜君，寻芳较晚，卷地惊风雨。问君知否，鸱夷载酒，不似井瓶身误。细思量，悲欢梦里，觉来总无寻处。<br>芒鞋竹杖，天教还了，千古玉溪佳句。落魄东归，风流赢得，掌上明珠去。起看清镜，南冠好在，拂了旧时尘土。向君道，云霄万里，这回稳步。</p><p>长忆别时，景疏楼上，明月如水。美酒清歌，留连不住，月随人千里。别来三度，孤光又满，冷落共谁同醉？卷珠帘、凄然顾影，共伊到明无寐。<br>今朝有客，来从濉上，能道使君深意。凭仗清淮，分明到海，中有相思泪。而今何在？西垣清禁，夜永露华侵被。此时看、回廊晓月，也应暗记。</p><p>最近用Hbuilder开发一个简单的APP应用，登录、注册时调用后台的方法，结果出现了ajax跨域的访问，很纳闷怎么会跨域，于是又想起了度娘……</p><p>AJAX跨域问题解决方案</p><p>一共总结出三种方案：代理、JSONP、XHR2（XMLHttpRequest Level 2）。</p><p>第一种：jsonp</p><p>$.ajax({</p><p>type:”get”,</p><p>url:”<a href="http://localhost:8080/login&quot;,/*url写异域的请求地址*/" target="_blank" rel="external">http://localhost:8080/login&quot;,/*url写异域的请求地址*/</a></p><p>dataType:”jsonp”,/<em>加上datatype</em>/</p><p>jsonpCallback:”success_jsonpCallback”,/<em>设置一个回调函数，名字随便取，和下面的函数里的名字相同就行</em>/</p><p>success:function(){</p><p>。。。</p><p>}</p><p>});</p><p>第二种：XMLHttpRequest Level 2</p><p>只需要在服务器端头部加上下面两句代码：</p><p>　　header( “Access-Control-Allow-Origin:<em>“ ); //</em>代表可以访问的地址，可以设置指定域名</p><p>　　header( “Access-Control-Allow-Methods:POST,GET” );</p><pre><code>这样在客户端使用常规的AJAX代码即可。</code></pre><p>第三种：代理</p><p>这种方式是通过后台(ASP、PHP、JAVA、ASP.NET)获取其他域名下的内容，然后再把获得内容返回到前端，这样因为在同一个域名下，所以就不会出现跨域的问题。</p><p>亲测第一种，第二种可以实现，第三种没有测试。</p>]]></content>
     
     <summary type="html">
     
