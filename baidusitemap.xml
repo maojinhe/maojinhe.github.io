@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/09/21/hello-world/</loc>
+    <lastmod>2017-10-10T08:00:32.439Z</lastmod>
+    <data>
+        <display>
+        <title>AJAX跨域问题解决方案</title>
+        <pubTime>2017-09-21T14:19:39.712Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/10/10/lianxi/</loc>
     <lastmod>2017-10-10T07:47:02.664Z</lastmod>
     <data>
@@ -18,21 +33,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://yoursite.com/2017/09/21/hello-world/</loc>
-    <lastmod>2017-09-28T08:56:37.612Z</lastmod>
-    <data>
-        <display>
-        <title>AJAX跨域问题解决方案</title>
-        <pubTime>2017-09-21T14:19:39.712Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://yoursite.com/2017/09/28/second/</loc>
