@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/10/10/lianxi/</loc>
+    <lastmod>2017-10-10T08:32:20.298Z</lastmod>
+    <data>
+        <display>
+        <title>spring Boot学习入门篇-idea开发简单的hello world实例</title>
+        <pubTime>2017-10-10T02:47:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/09/21/hello-world/</loc>
     <lastmod>2017-10-10T08:02:34.274Z</lastmod>
     <data>
@@ -17,22 +32,6 @@
     </data>
     </url>
 
-    
-  <url>
-    <loc>http://yoursite.com/2017/10/10/lianxi/</loc>
-    <lastmod>2017-10-10T07:47:02.664Z</lastmod>
-    <data>
-        <display>
-        <title>无题</title>
-        <pubTime>2017-10-10T02:47:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://yoursite.com/2017/09/28/second/</loc>

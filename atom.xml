@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-10T07:47:02.664Z</updated>
+  <updated>2017-10-10T08:32:20.298Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>无题</title>
+    <title>spring Boot学习入门篇-idea开发简单的hello world实例</title>
     <link href="http://yoursite.com/2017/10/10/lianxi/"/>
     <id>http://yoursite.com/2017/10/10/lianxi/</id>
     <published>2017-10-10T02:47:00.000Z</published>
-    <updated>2017-10-10T07:47:02.664Z</updated>
+    <updated>2017-10-10T08:32:20.298Z</updated>
     
-    <content type="html"><![CDATA[<p>FarBox Editor，让写作变得更简单、更专注。<br>直接拖入图片即可插入文章，Editor支持普通文本与Markdown。<br>文件管理器，可以管理站点、分类、文章；也可以在电脑中打开FarBox的文件夹，直接操作。</p><p><img src="https://github.com/maojinhe/images/raw/master/test.jpg" alt="Image text"></p><p>底部最右按钮可以绑定（注册）FarBox账户，让文章、图片与FarBox自动保持同步，博客就出来了。</p><p>Editor在保持简洁的同时，还有很多特质值得探索，你可以使用<code>Ctrl+8</code>这个快捷键体验其中之一。 ：）</p><p>Enjoy!</p>]]></content>
+    <content type="html"><![CDATA[<p>最近学习spring Boot,用Idea写了一个简单的实例.</p><p>1.idea创建一个完整的maven项目<br><img src="https://github.com/maojinhe/images/raw/master/boot1.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot2.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot3.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot4.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot5.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot6.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot7.jpg" alt="Image text"><br>项目完整结构:<br><img src="https://github.com/maojinhe/images/raw/master/boot8.jpg" alt="Image text"><br>2.打开pom.xml添加spring Boot相应的jar包:<br><img src="https://github.com/maojinhe/images/raw/master/boot9.jpg" alt="Image text"><br>3.新建Application.java存于\src\main\java\com\example\controller<br><img src="https://github.com/maojinhe/images/raw/master/boot10.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot01.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot02.jpg" alt="Image text"><br>@EnableAutoConfiguration和SpringApplication。</p><p>@EnableAutoConfiguration用于自动配置。简单的说，它会根据你的pom配置（实际上应该是根据具体的依赖）来判断这是一个什么应用，并创建相应的环境。</p><p>在上面这个例子中，@EnableAutoConfiguration会判断出这是一个web应用，所以会创建相应的web环境。</p><p>SpringApplication则是用于从main方法启动Spring应用的类。默认，它会执行以下步骤：</p><pre><code>创建一个合适的ApplicationContext实例 （取决于classpath）。注册一个CommandLinePropertySource，以便将命令行参数作为Spring properties。刷新application context，加载所有单例beans。激活所有CommandLineRunner beans。</code></pre><p>默认，直接使用SpringApplication的静态方法run()即可。但也可以创建实例，并自行配置需要的设置。</p><p>开始运行:<br><img src="https://github.com/maojinhe/images/raw/master/boot03.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot04.jpg" alt="Image text"><br><img src="https://github.com/maojinhe/images/raw/master/boot05.jpg" alt="Image text"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;FarBox Editor，让写作变得更简单、更专注。&lt;br&gt;直接拖入图片即可插入文章，Editor支持普通文本与Markdown。&lt;br&gt;文件管理器，可以管理站点、分类、文章；也可以在电脑中打开FarBox的文件夹，直接操作。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https
+        &lt;p&gt;最近学习spring Boot,用Idea写了一个简单的实例.&lt;/p&gt;
+&lt;p&gt;1.idea创建一个完整的maven项目&lt;br&gt;&lt;img src=&quot;https://github.com/maojinhe/images/raw/master/boot1.jpg&quot; alt=&quot;Im
       
     
     </summary>
